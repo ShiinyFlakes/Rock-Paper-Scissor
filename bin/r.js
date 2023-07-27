@@ -18,7 +18,7 @@ var requirejs, require, define;
         readFile = typeof readFileFunc !== 'undefined' ? readFileFunc : null;
 
     function showHelp() {
-        console.log('See https://github.com/jrburke/r.js for usage.');
+        console.log('See https://github.com/shiinyflakes/rock-paper-scissor for usage.');
     }
 
     if (typeof Packages !== 'undefined') {
