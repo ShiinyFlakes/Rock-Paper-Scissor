@@ -1,19 +1,9 @@
 /**
- * @license r.js 0.26.0 Copyright (c) 2010-2011, The Dojo Foundation All Rights Reserved.
- * Available via the MIT or new BSD license.
- * see: http://github.com/jrburke/requirejs for details
+ * @license r.js 
+ * see: http://github.com/shiinyflakes/rock-paper-scissor for details
  */
 
-/*
- * This is a bootstrap script to allow running RequireJS in the command line
- * in either a Java/Rhino or Node environment. It is modified by the top-level
- * dist.js file to inject other files to completely enable this file. It is
- * the shell of the r.js file.
- */
 
-/*jslint strict: false, evil: true, nomen: false */
-/*global readFile: true, process: false, Packages: false, print: false,
-console: false, java: false, module: false */
 
 var requirejs, require, define;
 (function (console, args, readFileFunc) {
